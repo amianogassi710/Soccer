@@ -427,23 +427,17 @@
 </div>
  
  
-<main class="main-content">
  
 <section class="theme-padding-bottom bg-fixed">
 <div class="container">
- 
-<div class="add-banners">
-<ul id="add-banners-slider" class="add-banners-slider slick-initialized slick-slider">
-<div aria-live="polite" class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1170px; transform: translate3d(0px, 0px, 0px);" role="listbox"><li class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 360px;" tabindex="-1" role="option" aria-describedby="slick-slide20">
-<a href="http://html.crunchpress.com/soccer/home-1.html#" tabindex="0"><img src="./Soccer_files/img-01(2).jpg" alt=""></a>
-</li><li class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 360px;" tabindex="-1" role="option" aria-describedby="slick-slide21">
-<a href="http://html.crunchpress.com/soccer/home-1.html#" tabindex="0"><img src="./Soccer_files/img-02(3).jpg" alt=""></a>
-</li><li class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 360px;" tabindex="-1" role="option" aria-describedby="slick-slide22">
-<a href="http://html.crunchpress.com/soccer/home-1.html#" tabindex="0"><img src="./Soccer_files/img-03(3).jpg" alt=""></a>
-</li></div></div>
 
 
-</ul>
+<div class="container" style="padding-bottom:50px;padding-top:50px;">
+
+<div style="width:353px;height:150px;float:left;background-color:red;margin-left:-15px;margin-right:40px;"><a href="#"> <img src="./Soccer_files/LaLiga.jpg" alt=""> </a> </div>
+<div style="width:353px;height:150px;float:left;background-color:white;margin-right:40px;"><a href="#"> <img src="./Soccer_files/PremierLeague.png" alt=""> </a> </div>
+<div style="width:354px;height:150px;float:left;background-color:white;"><a href="#"> <img src="./Soccer_files/Bundesliga.png" alt=""> </a> </div>
+
 </div>
  
  
@@ -1074,7 +1068,7 @@
   
 
 	
-<footer class="main-footer style-2">
+<footer class="main-footer style-2"style="margin-bottom: -200px;">
 <div class="container">
 	<div style="float:left;width:33%">
 		<div class="logo-column p-white">
@@ -1203,33 +1197,5 @@
 <script src="./Soccer_files/main.js.download"></script>
 
 
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
 
 </body></html>
