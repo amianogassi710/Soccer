@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-
-
-
 <head>
-<link rel="stylesheet" href="Soccer_files/csss/bootstrap.min.css">
-<script src="Soccer_files/jss/bootstrap.min.js"></script>
-<script src="Soccer_files/jss/jquery.min.js"></script>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="./Soccer_files/csss/league.css">
+	<link rel="stylesheet" href="Soccer_files/csss/bootstrap.min.css">
+	<script src="Soccer_files/jss/bootstrap.min.js"></script>
+	<script src="Soccer_files/jss/jquery.min.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
-<body>
+<body style="background: url(Soccer_files/images/L3.jpg) no-repeat center fixed";> 
 
 
 <div w3-include-html="navigation.html"></div> 
@@ -17,15 +14,17 @@
 w3.includeHTML();
 </script>
 
-
-
-
 <div class="table-responsive" style="width:500px;margin: 0 auto;">
-<a href="BundesligaTable.html" id="myLink">table</a>
-<a href="LaLigaResult.html" id="myLink">result</a>
-<a href="LaLigaFixture.html" id="myLink">fixture</a>
-<table class="table table-hover">
-  <thead class="thead-inverse">
+<ul id="menu"> 
+<li> <a href="BundesligaTable.html" id="myLink">Table</a> </li>
+<li> <a href="BundesligaResult.html" id="myLink">Result</a> </li>
+<li> <a href="BundesligaFixture.html" id="myLink">Fixture</a> </li>
+<li> <a href="BundesligaTopScorer.html" id="myLink">Top Scorer</a> </li>
+<li> <a href="BundesligaMostAssist.html" id="myLink">Most Assist</a> </li>
+</ul>
+
+<table class="table table-hover" style="opacity:0.9;">
+  <thead class="thead-inverse" style="background: indianred;">
     <tr>
       
       <th >Pos</th>
@@ -45,8 +44,8 @@ w3.includeHTML();
      <tr class="bg-primary">
         <td>1</td>
         <td>Augsburg</td>
-        <td></td>
-        <td></td>
+        <td>0</td>
+        <td>0</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -67,7 +66,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-    <tr class="info">
+    <tr class="bg-primary">
         <td>3</td>
         <td>Bayern Munich</td>
         <td>0</td>
@@ -91,7 +90,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="info">
+      <tr class="success">
         <td>5</td>
         <td>Borussia Moenchengladbach</td>
         <td>0</td>
@@ -103,7 +102,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="info">
+      <tr class="warning">
         <td>6</td>
         <td>Eintracht Frankfurt</td>
         <td>0</td>
@@ -115,7 +114,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="success">
+      <tr class="active">
         <td>7</td>
         <td>FC Cologne</td>
         <td>0</td>
@@ -127,7 +126,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="warning">
+      <tr class="active">
         <td>8</td>
         <td>Freiburg</td>
         <td>0</td>
@@ -151,7 +150,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="success">
+      <tr class="active">
         <td>10</td>
         <td>Hannover 96</td>
         <td>0</td>
@@ -162,7 +161,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
         <td>0</td>
-      </tr><tr class="warning">
+      </tr><tr class="active">
         <td>11</td>
         <td>Hertha Berlin</td>
         <td>0</td>
@@ -174,7 +173,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="info">
+       <tr class="active">
         <td>12</td>
         <td>Hoffenheim</td>
         <td>0</td>
@@ -198,7 +197,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="success">
+       <tr class="active">
         <td>14</td>
         <td>Southampton</td>
         <td>0</td>
@@ -210,7 +209,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="warning">
+       <tr class="active">
         <td>15</td>
         <td>RasenBallsport Leipzig</td>
         <td>0</td>
@@ -222,7 +221,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="info">
+       <tr class="active">
         <td>16</td>
         <td>Schalke 04</td>
         <td>0</td>
@@ -234,7 +233,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="success">
+       <tr class="bg-danger">
         <td>17</td>
         <td>VfB Stuttgart </td>
         <td>0</td>

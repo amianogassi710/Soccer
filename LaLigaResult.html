@@ -1,114 +1,201 @@
 <!DOCTYPE html>
-
-
-
 <head>
-<link rel="stylesheet" href="Soccer_files/csss/bootstrap.min.css">
-<script src="Soccer_files/jss/bootstrap.min.js"></script>
-<script src="Soccer_files/jss/jquery.min.js"></script>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="./Soccer_files/csss/league.css">
+	<link rel="stylesheet" href="Soccer_files/csss/bootstrap.min.css">
+	<script src="Soccer_files/jss/bootstrap.min.js"></script>
+	<script src="Soccer_files/jss/jquery.min.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
-<body>
-
+<body style="background: url(Soccer_files/images/L1.jpg) no-repeat center fixed";> 
 
 
 <div w3-include-html="navigation.html"></div> 
-<script>
-w3.includeHTML();
-</script>
+	<script>
+	w3.includeHTML();
+	</script>
 
 <div class="table-responsive" style="width:500px;margin: 0 auto;">
-<a href="LaLigaTable.html" id="myLink">table</a>
-<a href="LaLigaResult.html" id="myLink">result</a>
-<a href="LaLigaFixture.html" id="myLink">fixture</a>
-<table class="table table-hover">
-  <thead class="thead-inverse">
-    <tr>      
-      <th >Time(NST)</th>
-      <th>Home</th>
-      <th>Result</th>
-      <th>Away</th>
-      <th>Broadcasting</th>
-    </tr>
-  </thead>
-  <tbody>
+<ul id="menu"> 
+<li> <a href="LaLigaTable.html" id="myLink">Table</a> </li>
+<li> <a href="LaLigaResult.html" id="myLink">Result</a> </li>
+<li> <a href="LaLigaFixture.html" id="myLink">Fixture</a> </li>
+<li> <a href="LaLigaTopScorer.html" id="myLink">Top Scorer</a> </li>
+<li> <a href="LaLigaMostAssist.html" id="myLink">Most Assist</a> </li>
+</ul>
+<!-- <table class="table table-hover"> -->
+  <!-- <thead class="thead-inverse" style="background: indianred;"> -->
+    <!-- <tr>       -->
+      <!-- <th>Date</th> -->
+      <!-- <th >Time(NST)</th> -->
+      <!-- <th>Home</th> -->
+      <!-- <th>VS</th> -->
+      <!-- <th>Away</th> -->
+      <!-- <th>Broadcasting</th> -->
+    <!-- </tr> -->
+  <!-- </thead> -->
+  <!-- <tbody> -->
 	
-     <tr class="">
-        <td>Week 1</td>	
-      </tr> 
-     <tr class="info">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr> 
-	  <tr class="info">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="success">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="success">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="warning">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="warning">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="active">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="active">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="bg-danger">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>
-	  <tr class="bg-danger">
-        <td>12:30</td>
-        <td>Real Madrid</td>
-        <td>3-1</td>
-        <td>Chelsea</td>
-        <td>Sony Six, ESPN</td>
-      </tr>      
-  </tbody>
-</table>
+     <!-- <tr class=""> -->
+        <!-- <td style="background:cadetblue;">Week 1</td>	 -->
+      <!-- </tr>  -->
+     <!-- <tr class="info"> -->
+	 <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Athletic Bilbao</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Getafe</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr>  -->
+	  <!-- <tr class="info"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Barcelona</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Real Betis</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="success"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Celta Vigo</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Real Sociedad</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="success"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Deportivo La Coruna</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Real Madrid</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="warning"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Girona</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Atletico Madrid</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="warning"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Leganes</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Alaves</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="active"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Levante</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Villarreal</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="active"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Malaga</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Espanyol</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="bg-danger"> -->
+	  <!-- <td>20th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Valencia</td> -->
+        <!-- <td>VS</td> -->
+        <!-- <td>Las Palmas</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr>      -->
+	  
+	  <!-- <tr class=""> -->
+        <!-- <td style="background:cadetblue;">Week 2</td>	 -->
+      <!-- </tr>  -->
+     <!-- <tr class="info"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Alaves</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Barcelona</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr>  -->
+	  <!-- <tr class="info"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Eibar</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Athletic Bilbao</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="success"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Espanyol</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Leganes</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="success"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Getafe</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Sevilla</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="warning"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Girona</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Malaga</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="warning"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Las Palmas</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Atletico Madrid</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="active"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Levante</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Deportivo La Coruna</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="active"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Real Betis</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Celta Vigo</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="bg-danger"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Real Madrid</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Valencia</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr> -->
+	  <!-- <tr class="bg-danger"> -->
+        <!-- <td>27th August</td> -->
+        <!-- <td>12:30</td> -->
+        <!-- <td>Real Sociedad</td> -->
+        <!-- <td>vs</td> -->
+        <!-- <td>Villareal</td> -->
+        <!-- <td>Sony Six, ESPN</td> -->
+      <!-- </tr>       -->
+  <!-- </tbody> -->
+<!-- </table> -->
 </div>
 
 

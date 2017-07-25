@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-
-
-
 <head>
-<link rel="stylesheet" href="Soccer_files/csss/bootstrap.min.css">
-<script src="Soccer_files/jss/bootstrap.min.js"></script>
-<script src="Soccer_files/jss/jquery.min.js"></script>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-
+	<link rel="stylesheet" type="text/css" href="./Soccer_files/csss/league.css">
+	<link rel="stylesheet" href="Soccer_files/csss/bootstrap.min.css">
+	<script src="Soccer_files/jss/bootstrap.min.js"></script>
+	<script src="Soccer_files/jss/jquery.min.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
-<body>
 
-
+<body style="background: url(Soccer_files/images/L1.jpg) no-repeat center fixed";> 
 <div w3-include-html="navigation.html"></div> 
-<script>
-w3.includeHTML();
-</script>
-
-
-<div class="table-responsive" style="width:500px;margin: 0 auto;">
-<a href="LaLigaTable.html" id="myLink">table</a>
-<a href="LaLigaResult.html" id="myLink">result</a>
-<a href="LaLigaFixture.html" id="myLink">fixture</a>
-<table class="table table-hover">
-  <thead class="thead-inverse">
+	<script>
+	w3.includeHTML();
+	</script>
+<div style="">
+<div class="table-responsive" style="width:500px;margin: 0 auto; margin-top:-20px;">
+<ul id="menu"> 
+<li> <a href="LaLigaTable.html" id="myLink">Table</a> </li>
+<li> <a href="LaLigaResult.html" id="myLink">Result</a> </li>
+<li> <a href="LaLigaFixture.html" id="myLink">Fixture</a> </li>
+<li> <a href="LaLigaTopScorer.html" id="myLink">Top Scorer</a> </li>
+<li> <a href="LaLigaMostAssist.html" id="myLink">Most Assist</a> </li>
+</ul>
+<table class="table table-hover" style="opacity:0.9;">
+  <thead class="thead-inverse" style="background: indianred;">
     <tr>
       
       <th >Pos</th>
@@ -65,7 +64,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-    <tr class="info">
+    <tr class="bg-primary">
         <td>3</td>
         <td>Atletico Madrid</td>
         <td>0</td>
@@ -89,7 +88,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="info">
+      <tr class="success">
         <td>5</td>
         <td>Villarreal</td>
         <td>0</td>
@@ -101,7 +100,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="info">
+      <tr class="warning">
         <td>6</td>
         <td>Real Sociedad</td>
         <td>0</td>
@@ -113,7 +112,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="success">
+      <tr class="active">
         <td>7</td>
         <td>Athletic Bilbao</td>
         <td>0</td>
@@ -125,7 +124,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="warning">
+      <tr class="active">
         <td>8</td>
         <td>Espanyol Town</td>
         <td>0</td>
@@ -149,7 +148,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-      <tr class="success">
+      <tr class="active">
         <td>10</td>
         <td>Eibar</td>
         <td>0</td>
@@ -160,7 +159,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
         <td>0</td>
-      </tr><tr class="warning">
+      </tr><tr class="active">
         <td>11</td>
         <td>Malaga</td>
         <td>0</td>
@@ -172,7 +171,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="info">
+       <tr class="active">
         <td>12</td>
         <td>Valencia</td>
         <td>0</td>
@@ -196,7 +195,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="success">
+       <tr class="active">
         <td>14</td>
         <td>Las Palmas</td>
         <td>0</td>
@@ -208,7 +207,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="warning">
+       <tr class="active">
         <td>15</td>
         <td>Real Betis</td>
         <td>0</td>
@@ -220,7 +219,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="info">
+       <tr class="active">
         <td>16</td>
         <td>Deportivo La Coruna</td>
         <td>0</td>
@@ -232,7 +231,7 @@ w3.includeHTML();
         <td>0</td>
         <td>0</td>
       </tr>
-       <tr class="success">
+       <tr class="active">
         <td>17</td>
         <td>Leganes</td>
         <td>0</td>
@@ -284,7 +283,7 @@ w3.includeHTML();
   </tbody>
 </table>
 </div>
-
+</div>
 </body>
 
 </html>
